@@ -5,9 +5,9 @@ import javax.swing.JOptionPane;
 
 public class CalcularNota {
     private double nota;
-    double boletines = 0;
-    double boletinesTotales=17;
-    int puntuacionBoletines;
+    private double boletines = 0;
+    private double boletinesTotales=17;
+    private int puntuacionBoletines;
     
     public void calcular(){
         double escrita1 = Double.parseDouble(JOptionPane.showInputDialog("Introduce la nota de la primera prueba escrita"));
